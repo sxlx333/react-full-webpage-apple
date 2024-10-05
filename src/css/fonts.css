@@ -1,0 +1,18 @@
+/* Define Maven Pro Variable Font */
+@font-face {
+    font-family: 'Maven Pro';
+    src: url('/src/assets/fonts/MavenPro-VariableFont_wght.ttf') format('truetype');
+    font-weight: 100 900; /* Variable font weight range */
+    font-style: normal;
+  }
+  
+  /* Define Maven Pro Black */
+  @font-face {
+    font-family: 'Maven Pro';
+    src: url('/src/assets/fonts/static/MavenPro-Black.ttf') format('truetype');
+    font-weight: 900; /* Black weight */
+    font-style: normal;
+  }
+  
+  /* Add more font definitions for other weights if needed */
+  

@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.darkTopSection {
+    background-color: #333;
+    width: 100%;
+}
+
+.darkTopSection > .imgContainer {
+    width: 100%;
+    max-width: 980px;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.darkTopSection > .imgContainer > img.topLogo {
+    width: 50px;
+    height: auto;
+}
