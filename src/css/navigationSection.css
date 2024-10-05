@@ -14,7 +14,6 @@ body {
 
 .navigationSection {
     width: 100%;
-    padding: 16px 0px;
     border-bottom: 1px solid #eee;
 }
 
@@ -26,6 +25,7 @@ body {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    padding: 10px;
 
 }
 
@@ -55,4 +55,5 @@ body {
     border: 1px solid #07c;
     background: linear-gradient(#42a1ec, #0070c9);
     border-radius: 4px;
+    cursor: pointer;
 }
