@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, p {
+    color: #222;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.innovationSection {
+    width: 100%;
+    background: #f7f7f7;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 100px 0px;
+}
+
+.innovationSection > .textContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 456px;
+    margin-top: 64px;
+    margin-left: 240px;
+}
+
+.innovationSection > .textContainer > .innovationTitle{
+    font-size: 24px;
+}
+
+.innovationSection > .textContainer > .pureTitle{
+    margin: 0;
+    font-size: 2em;
+}
+
+.innovationSection > .textContainer > .longPara{
+    margin: 18px 0px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.innovationSection > .phoneImageContainer {
+    position: relative;
+    max-width: 100%;
+    width: 720px;
+    height: 400px;
+}
+
+.innovationSection > .phoneImageContainer > img {
+    max-width: 500px;
+    height: auto;
+    margin-top: 78px;
+}

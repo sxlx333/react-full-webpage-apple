@@ -18,9 +18,8 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     position: relative;
-    padding: 50px 0;
 }
 
 .visionContainer > .textContainer {
@@ -30,19 +29,24 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    max-width: 400px;
+    max-width: 462px;
+    margin-top: 64px;
+    margin-left: 240px;
 }
 
 .visionContainer > .textContainer > .visionTitle{
-
+    font-size: 24px;
 }
 
 .visionContainer > .textContainer > .upgradeTitle{
     margin: 0;
+    font-size: 2em;
 }
 
 .visionContainer > .textContainer > .longPara{
     margin: 18px 0px;
+    font-size: 18px;
+    line-height: 26px;
 }
 
 .visionContainer > .phoneImageContainer {
@@ -50,6 +54,6 @@ body {
 }
 
 .visionContainer > .phoneImageContainer > img {
-    max-width: 600px;
+    max-width: 700px;
     height: auto;
 }

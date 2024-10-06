@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, p {
+    color: #222;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.DesignContainer {
+    width: 100%;
+    background: #f9e9ff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    position: relative;
+    padding: 100px 0;
+}
+
+.DesignContainer > .textContainer {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 450px;
+    margin-top: 64px;
+    margin-left: 240px;
+}
+
+.DesignContainer > .textContainer > .designTitle{
+    font-size: 24px;
+}
+
+.DesignContainer > .textContainer > .perfectTitle{
+    margin: 0;
+    font-size: 2em;
+}
+
+.DesignContainer > .textContainer > .longPara{
+    margin: 18px 0px;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.DesignContainer > .phoneImageContainer {
+    position: relative;
+    max-width: 100%;
+    width: 720px;
+    height: 400px;
+}
+
+.DesignContainer > .phoneImageContainer > img {
+    position: absolute;
+    top: 0;
+    left: 50px;
+    width: 300px;
+}
