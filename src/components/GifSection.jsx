@@ -6,8 +6,7 @@ import safe from '../img/safe.jpg';
 import waterproof from '../img/waterproof.jpg';
 import animation from '../img/animation.gif';
 
-
-export function GifSection () {
+export function GifSection() {
     return (
         <>
         <div className='gifContainer'>
