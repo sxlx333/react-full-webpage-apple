@@ -22,7 +22,14 @@ body {
     position: relative;
 }
 
-.visionContainer > .textContainer {
+.visionSection {
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.visionContainer > .visionSection > .textContainer {
     width: 100%;
     margin: 0 auto;
     display: flex;
@@ -31,29 +38,29 @@ body {
     align-items: flex-start;
     max-width: 462px;
     margin-top: 64px;
-    margin-left: 240px;
+    margin-left: 332px;
 }
 
-.visionContainer > .textContainer > .visionTitle{
+.visionContainer > .visionSection > .textContainer > .visionTitle{
     font-size: 24px;
 }
 
-.visionContainer > .textContainer > .upgradeTitle{
+.visionContainer > .visionSection > .textContainer > .upgradeTitle{
     margin: 0;
     font-size: 2em;
 }
 
-.visionContainer > .textContainer > .longPara{
+.visionContainer > .visionSection > .textContainer > .longPara{
     margin: 18px 0px;
     font-size: 18px;
     line-height: 26px;
 }
 
-.visionContainer > .phoneImageContainer {
+.visionContainer > .visionSection > .phoneImageContainer {
 
 }
 
-.visionContainer > .phoneImageContainer > img {
+.visionContainer > .visionSection > .phoneImageContainer > img {
     max-width: 700px;
     height: auto;
 }

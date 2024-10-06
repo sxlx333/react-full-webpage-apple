@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, p {
+    color: #222;
+    font-weight: 300;
+}
+
+body {
+    font-family: 'Maven Pro', sans-serif;
+}
+
+.footerSection {
+    width: 100%;
+    background: #eee;
+    padding: 30px 0 80px 0;
+}
+
+.footerSection > .footerContainer {
+    width: 100%;
+    max-width: 980px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footerSection > .footerContainer > .madeTitle {
+    font-size: 2em;
+    margin: 0.67em 0px;
+}
+
+.underlined {
+    border-bottom: 1px solid #222;
+}
+
+.footerSection > .footerContainer > .parodyPara {
+    font-size: 12px;
+    font-style: italic;
+    margin: 12px 0px;
+}
+
+.footerSection > .footerContainer > .nicerPara {
+    font-size: 14px;
+    line-height: 26px;
+    margin: 14px 0px;
+    margin-top: 0;
+}
+
+.fa-twitter:before {
+    content: "\f099";
+}
+
+.footerSection > .footerContainer > .ifThisMadePara {
+    font-size: 18px;
+    line-height: 26px;
+    margin: 18px 0px;
+}
+
+.footerSection > .footerContainer > .formContainer > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSection > .footerContainer > .formContainer > form > input{
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+}
+
+
+.footerSection > .footerContainer > .formContainer > form > .subscribeBtn{
+    font-size: 100%;
+    line-height: 1.15;
+    margin: 0px;
+    border: 2px solid #222;
+}
