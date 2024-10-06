@@ -1,9 +1,44 @@
+import { useEffect } from "react";
 import '../css/designSection.css';
 import bottomRightAluminium from '../img/parallax-01.png';
 import leftMiddleAluminium from '../img/parallax-02.png';
 import topBigAluminium from '../img/parallax-03.png';
 
 export function DesignSection () {
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollY = window.scrollY;
+  
+            const images = document.querySelectorAll('.phoneImageContainer img');
+
+            images.forEach((img, index) => {
+                let translateYValue;
+
+                switch (index) {
+                    case 0:
+                        translateYValue = scrollY * -0.1;
+                        break;
+                    case 1:
+                        translateYValue = scrollY * -0.15;
+                        break;
+                    case 2:
+                        translateYValue = scrollY * -0.2;
+                        break;
+                    default:
+                        translateYValue = scrollY * -0.1;
+                }
+
+                img.style.transform = `translateY(${translateYValue}px)`;
+            });
+        };
+
+        window.addEventListener('scroll', handleScroll);
+
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    }, []);
+
     return (
         <>
         <div className='DesignContainer'>

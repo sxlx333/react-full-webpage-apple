@@ -32,7 +32,7 @@ body {
     align-items: flex-start;
     max-width: 456px;
     margin-top: 64px;
-    margin-left: 343px;
+    margin-left: 471px;
 }
 
 .innovationSection > .textContainer > .innovationTitle{
@@ -53,7 +53,7 @@ body {
 .innovationSection > .phoneImageContainer {
     position: relative;
     max-width: 100%;
-    width: 720px;
+    width: 950px;
     height: 400px;
 }
 
